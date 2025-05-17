@@ -8,6 +8,7 @@ import Recipes from "./pages/Recipes"
 import Orders from "./pages/Orders"
 import Reports from "./pages/Reports"
 import Login from "./pages/Login"
+import Register from "./pages/Register"
 import ProtectedRoute from "./components/ProtectedRoute"
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Toaster position="top-right" />
         <Routes>
           <Route path="/login" element={<Login />} />
+          <Route path="/register" element={<Register />} />
           <Route
             path="/"
             element={
